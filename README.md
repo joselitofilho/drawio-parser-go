@@ -15,7 +15,7 @@
 
 # Overview
 
-This is a GoLang library designed to parse [draw.io](diagrams) diagram files and convert them into Go language 
+This is a GoLang library designed to parse [draw.io][diagrams] diagram files and convert them into Go language 
 structures. This project aims to provide a straightforward way to extract meaningful data from draw.io diagrams 
 programmatically, enabling developers to integrate draw.io diagrams into their Go applications seamlessly.
 
