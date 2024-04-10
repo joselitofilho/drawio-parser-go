@@ -50,6 +50,6 @@ If you are the current maintainer of this gem:
 1. Push the new tag created: `git push --tags`
 1. Create a new release on GitHub for the new tag created [here][release]
 
-[issues]: https://github.com/diagram-code-generator/resources/issues
-[pull_request]: https://github.com/diagram-code-generator/resources/pulls
-[release]: https://github.com/diagram-code-generator/resources/releases/new
+[issues]: https://github.com/joselitofilho/drawio-parser-go/resources/issues
+[pull_request]: https://github.com/joselitofilho/drawio-parser-go/resources/pulls
+[release]: https://github.com/joselitofilho/drawio-parser-go/resources/releases/new
