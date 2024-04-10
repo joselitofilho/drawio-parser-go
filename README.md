@@ -93,4 +93,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the [MIT License](LICENSE).
 
 [diagrams]: https://app.diagrams.net/
-[issues]: https://github.com/diagram-code-generator/resources/issues
+[issues]: https://github.com/joselitofilho/drawio-parser-go/issues
