@@ -42,7 +42,7 @@ func TestParseXML(t *testing.T) {
 									"gradientColor=none;",
 								Parent: "1",
 								Vertex: true,
-								Geometry: Geometry{
+								Geometry: &Geometry{
 									XMLName: xml.Name{Local: "mxGeometry"},
 									X:       850,
 									Y:       -1121.5,

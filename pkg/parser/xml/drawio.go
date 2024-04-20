@@ -30,23 +30,23 @@ type Root struct {
 
 // MxCell represents a cell element within the draw.io XML file.
 type MxCell struct {
-	XMLName  xml.Name `xml:"mxCell"`
-	ID       string   `xml:"id,attr"`
-	Value    string   `xml:"value,attr"`
-	Style    string   `xml:"style,attr"`
-	Parent   string   `xml:"parent,attr"`
-	Vertex   bool     `xml:"vertex,attr"`
-	Source   string   `xml:"source,attr"`
-	Target   string   `xml:"target,attr"`
-	Geometry Geometry `xml:"mxGeometry"`
+	XMLName  xml.Name  `xml:"mxCell"`
+	ID       string    `xml:"id,attr"`
+	Value    string    `xml:"value,attr,omitempty"`
+	Style    string    `xml:"style,attr,omitempty"`
+	Parent   string    `xml:"parent,attr,omitempty"`
+	Vertex   bool      `xml:"vertex,attr,omitempty"`
+	Source   string    `xml:"source,attr,omitempty"`
+	Target   string    `xml:"target,attr,omitempty"`
+	Geometry *Geometry `xml:"mxGeometry,omitempty"`
 }
 
 // Geometry represents the geometry element within a cell of the draw.io XML file.
 type Geometry struct {
 	XMLName xml.Name `xml:"mxGeometry"`
-	X       float64  `xml:"x,attr"`
-	Y       float64  `xml:"y,attr"`
-	Width   float64  `xml:"width,attr"`
-	Height  float64  `xml:"height,attr"`
-	As      string   `xml:"as,attr"`
+	X       float64  `xml:"x,attr,omitempty"`
+	Y       float64  `xml:"y,attr,omitempty"`
+	Width   float64  `xml:"width,attr,omitempty"`
+	Height  float64  `xml:"height,attr,omitempty"`
+	As      string   `xml:"as,attr,omitempty"`
 }
