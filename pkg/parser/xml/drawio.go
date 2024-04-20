@@ -48,4 +48,5 @@ type Geometry struct {
 	Y       float64  `xml:"y,attr"`
 	Width   float64  `xml:"width,attr"`
 	Height  float64  `xml:"height,attr"`
+	As      string   `xml:"as,attr"`
 }

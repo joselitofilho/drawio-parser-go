@@ -48,6 +48,7 @@ func TestParseXML(t *testing.T) {
 									Y:       -1121.5,
 									Width:   76.5,
 									Height:  93,
+									As:      "geometry",
 								},
 							}},
 						},
