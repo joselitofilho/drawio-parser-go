@@ -41,7 +41,7 @@ func TestParseXML(t *testing.T) {
 									"align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;" +
 									"gradientColor=none;",
 								Parent: "1",
-								Vertex: true,
+								Vertex: "1",
 								Geometry: &Geometry{
 									XMLName: xml.Name{Local: "mxGeometry"},
 									X:       850,
