@@ -44,10 +44,11 @@ type MxCell struct {
 
 // Geometry represents the geometry element within a cell of the draw.io XML file.
 type Geometry struct {
-	XMLName xml.Name `xml:"mxGeometry"`
-	X       float64  `xml:"x,attr"`
-	Y       float64  `xml:"y,attr"`
-	Width   float64  `xml:"width,attr,omitempty"`
-	Height  float64  `xml:"height,attr,omitempty"`
-	As      string   `xml:"as,attr,omitempty"`
+	XMLName  xml.Name `xml:"mxGeometry"`
+	X        float64  `xml:"x,attr"`
+	Y        float64  `xml:"y,attr"`
+	Width    float64  `xml:"width,attr,omitempty"`
+	Height   float64  `xml:"height,attr,omitempty"`
+	Relative string   `xml:"relative,attr,omitempty"`
+	As       string   `xml:"as,attr,omitempty"`
 }
