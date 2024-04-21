@@ -44,8 +44,8 @@ func TestParseXML(t *testing.T) {
 								Vertex: "1",
 								Geometry: &Geometry{
 									XMLName: xml.Name{Local: "mxGeometry"},
-									X:       toPointer(850.0),
-									Y:       toPointer(-1121.5),
+									X:       "850",
+									Y:       "-1121.5",
 									Width:   76.5,
 									Height:  93,
 									As:      "geometry",
@@ -150,8 +150,4 @@ func TestParseXML_XMLDecodeErrors(t *testing.T) {
 			require.Error(t, err)
 		})
 	}
-}
-
-func toPointer[T any](v T) *T {
-	return &v
 }
