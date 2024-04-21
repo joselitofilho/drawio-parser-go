@@ -3,8 +3,9 @@
 # drawio-parser-go
 
 [![GitHub tag](https://img.shields.io/github/release/joselitofilho/drawio-parser-go?include_prereleases=&sort=semver&color=2ea44f&style=for-the-badge)](https://github.com/joselitofilho/drawio-parser-go/releases/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/joselitofilho/drawio-parser-go?style=for-the-badge)](https://goreportcard.com/report/github.com/joselitofilho/drawio-parser-go)
 [![Code coverage](https://img.shields.io/badge/Coverage-100.0%25-2ea44f?style=for-the-badge)](#)
+[![Go Report Card](https://goreportcard.com/badge/github.com/joselitofilho/drawio-parser-go?style=for-the-badge)](https://goreportcard.com/report/github.com/joselitofilho/drawio-parser-go)
+[![GoDoc](https://img.shields.io/badge/reference-blue?logo=go&logoColor=white&style=for-the-badge)](https://pkg.go.dev/github.com/joselitofilho/drawio-parser-go "Go to Golang docs")
 
 [![Made with Golang](https://img.shields.io/badge/Golang-1.21.6-blue?logo=go&logoColor=white&style=for-the-badge)](https://go.dev "Go to Golang homepage")
 [![Using Diagrams](https://img.shields.io/badge/diagrams.net-orange?logo=&logoColor=white&style=for-the-badge)](https://app.diagrams.net/ "Go to Diagrams homepage")
